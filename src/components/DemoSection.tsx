@@ -52,13 +52,13 @@ const DemoSection = () => {
     demoExamples[0];
 
   return (
-    <section className="py-20 px-4 md:px-8 bg-slate-50">
+    <section className="py-20 px-4 md:px-8 bg-slate-50 dark:bg-slate-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">
             See the BrandVoice Difference
           </h2>
-          <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
             Compare generic AI responses with BrandVoice-enhanced communication
             that captures your authentic brand personality.
           </p>
@@ -85,7 +85,7 @@ const DemoSection = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-slate-200 h-full">
+            <Card className="border-slate-200 dark:border-slate-700 h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Quote size={20} className="text-slate-400" />
@@ -96,13 +96,13 @@ const DemoSection = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-2">
-                <p className="whitespace-pre-line text-slate-700">
+                <p className="whitespace-pre-line text-slate-700 dark:text-slate-300">
                   {activeExample.genericResponse}
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-primary/20 bg-primary/5 h-full">
+            <Card className="border-primary/20 bg-primary/5 dark:bg-primary/10 h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <Quote size={20} className="text-primary" />
@@ -113,7 +113,7 @@ const DemoSection = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-2">
-                <p className="whitespace-pre-line text-slate-700">
+                <p className="whitespace-pre-line text-slate-700 dark:text-slate-300">
                   {activeExample.brandVoiceResponse}
                 </p>
               </CardContent>

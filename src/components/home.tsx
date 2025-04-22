@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import HeroSection from "./HeroSection";
 import FeatureSection from "./FeatureSection";
 import DemoSection from "./DemoSection";
+import { ThemeToggle } from "./ThemeToggle";
 
 const Home = () => {
   return (

@@ -155,7 +155,7 @@ const HeroSection = ({
 
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
                 <div className="flex items-center">
-                  <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full bg-green-100 dark:bg-green-800 flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4 text-green-600"
